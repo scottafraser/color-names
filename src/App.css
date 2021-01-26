@@ -1,38 +1,111 @@
 .App {
   text-align: center;
+  max-width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.letter-wrapper {
+  /* width: 100vw;
+  height: 100vh; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.flex-wrapper {
+  /* display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center; */
+  /* height: 100vh; */
 }
 
-.App-link {
-  color: #61dafb;
+.main-form {
+  padding: 2em;
+  font-size: 4em;
+  font-weight: 900;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+  font-size: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0%;
+}
+
+.a {
+  color: rgb(240, 35, 69);
+}
+.b {
+  color: rgb(6, 2, 223);
+}
+.c {
+  color: rgb(218, 136, 29);
+}
+.d {
+  color: rgb(16, 139, 26);
+}
+.e {
+  color: rgb(100, 100, 100);
+}
+.f {
+  color: rgb(130, 17, 206);
+}
+.g {
+  color: rgb(60, 141, 74);
+}
+.h {
+  color: rgb(194, 171, 171);
+}
+.i {
+  color: rgb(223, 214, 167);
+}
+.j {
+  color: rgb(219, 183, 66);
+}
+.k {
+  color: rgb(87, 78, 69);
+}
+.l {
+  color: rgb(182, 97, 17);
+}
+.m {
+  color: rgb(190, 79, 94);
+}
+.n {
+  color: rgb(168, 58, 24);
+}
+.o {
+  color: rgb(156, 135, 148);
+}
+.p {
+  color: rgb(252, 80, 209);
+}
+.q {
+  color: rgb(54, 99, 54);
+}
+.r {
+  color: rgb(223, 2, 39);
+}
+.s {
+  color: rgb(250, 247, 61);
+}
+.t {
+  color: rgb(2, 90, 223);
+}
+.u {
+  color: rgb(180, 80, 97);
+}
+.v {
+  color: rgb(124, 76, 168);
+}
+.w {
+  color: rgb(95, 92, 93);
+}
+.x {
+  color: rgb(58, 57, 57);
+}
+.y {
+  color: rgb(255, 242, 62);
+}
+.z {
+  color: rgb(12, 11, 12);
 }
